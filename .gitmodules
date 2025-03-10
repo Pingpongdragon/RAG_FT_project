@@ -1,0 +1,3 @@
+[submodule "RAG_project"]
+	path = RAG_project
+	url = ./RAG_project/
