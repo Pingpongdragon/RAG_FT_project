@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试程序: RAG Project",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/RAG_project/main.py", // 完整项目路径
+            "cwd": "${workspaceFolder}/RAG_project", // 关键修复点
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "3"
+            }
+        }
+    ]
+}
